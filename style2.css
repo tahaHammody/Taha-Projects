@@ -1,0 +1,37 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url('https://img.freepik.com/free-photo/bright-set-school-stationery-consisting-red-paper-clips-crayons-pencils-wooden-ruler_197531-12534.jpg?t=st=1683320464~exp=1683321064~hmac=1c00cbfe62c03f82363af61184551b6167cdcd1a1cc24ab2f2917ca4c66eb988');
+  background-size: cover;
+}
+
+#Lists-of-tasks {
+  background-color: white;
+  max-width: 600px;
+  width: 90%;
+  margin: 50px auto;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  padding: 20px;
+}
+
+#Lists, th, td {
+  border: 1px solid;
+}
+
+#Lists {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th {
+  height: 50px;
+}
+
+td {
+  text-align: center;
+  height: 50px;
+}
+
+#title-of-home-page {
+  text-align: center;
+}
