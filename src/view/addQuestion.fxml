@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="800.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="control.AddQuestionController">
+   <children>
+      <Text layoutX="378.0" layoutY="76.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Add New Question " wrappingWidth="608.439453125">
+         <font>
+            <Font name="Lucida Console" size="46.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="426.0" fitWidth="561.0" layoutX="773.0" layoutY="216.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/question.png" />
+         </image>
+      </ImageView>
+      <TextArea fx:id="content" layoutX="96.0" layoutY="193.0" prefHeight="46.0" prefWidth="544.0" />
+      <Text layoutX="96.0" layoutY="179.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Question's Content:" wrappingWidth="355.439453125">
+         <font>
+            <Font name="Lucida Console" size="18.0" />
+         </font>
+      </Text>
+      <RadioButton fx:id="radioBtn1" layoutX="95.0" layoutY="310.0" mnemonicParsing="false" text="Answer #1:">
+         <toggleGroup>
+            <ToggleGroup fx:id="toggleGroup" />
+         </toggleGroup></RadioButton>
+      <RadioButton fx:id="radioBtn2" layoutX="95.0" layoutY="369.0" mnemonicParsing="false" text="Answer #2:" toggleGroup="$toggleGroup" />
+      <RadioButton fx:id="radioBtn3" layoutX="95.0" layoutY="429.0" mnemonicParsing="false" text="Answer #3:" toggleGroup="$toggleGroup" />
+      <RadioButton fx:id="radioBtn4" layoutX="94.0" layoutY="484.0" mnemonicParsing="false" text="Answer #4:" toggleGroup="$toggleGroup" />
+      <Text layoutX="96.0" layoutY="285.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Select the correct answer:" wrappingWidth="355.439453125">
+         <font>
+            <Font name="Lucida Console" size="18.0" />
+         </font>
+      </Text>
+      <TextArea fx:id="answer1" layoutX="184.0" layoutY="299.0" prefHeight="38.0" prefWidth="452.0" />
+      <TextArea fx:id="answer3" layoutX="184.0" layoutY="419.0" prefHeight="38.0" prefWidth="452.0" />
+      <TextArea fx:id="answer2" layoutX="184.0" layoutY="359.0" prefHeight="38.0" prefWidth="452.0" />
+      <TextArea fx:id="answer4" layoutX="184.0" layoutY="476.0" prefHeight="38.0" prefWidth="452.0" />
+      <Text layoutX="96.0" layoutY="566.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Level of diffuclty:" wrappingWidth="355.439453125">
+         <font>
+            <Font name="Lucida Console" size="18.0" />
+         </font>
+      </Text>
+      <ComboBox fx:id="comboBox" layoutX="99.0" layoutY="580.0" prefHeight="25.0" prefWidth="201.0" visibleRowCount="3" />
+      <Button fx:id="cancel" layoutX="390.0" layoutY="641.0" mnemonicParsing="false" onAction="#cancel" prefHeight="25.0" prefWidth="122.0" style="-fx-border-color: red; -fx-background-color: transparent; -fx-border-radius: 3;" text="Cancel" textFill="RED" />
+      <Line endX="-100.0" endY="578.5" layoutX="783.0" layoutY="140.0" startX="-100.0" startY="2.0" />
+      <Line endX="35.5" endY="0.5" layoutX="647.0" layoutY="140.0" startX="-583.7999877929688" startY="0.5" />
+      <Line endX="-99.29999542236328" endY="580.0" layoutX="162.0" layoutY="139.0" startX="-100.0" startY="2.0" />
+      <Line endX="35.5" endY="0.5" layoutX="647.0" layoutY="718.0" startX="-583.7999877929688" startY="0.5" />
+      <Button fx:id="save" layoutX="256.0" layoutY="642.0" mnemonicParsing="false" onAction="#saveQuestion" prefHeight="25.0" prefWidth="122.0" style="-fx-border-radius: 3;" text="Save" />
+      <Button fx:id="backBtn" layoutX="31.0" layoutY="14.0" minWidth="34.0" mnemonicParsing="false" onAction="#goBack" prefHeight="63.0" prefWidth="94.0" style="-fx-background-color: transparent;" textAlignment="CENTER">
+         <graphic>
+            <ImageView fitHeight="45.0" fitWidth="46.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/back-button.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Label fx:id="msgLabel" layoutX="64.0" layoutY="111.0" prefHeight="30.0" prefWidth="620.0" textFill="RED">
+         <font>
+            <Font name="Lucida Bright" size="20.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

@@ -1,0 +1,94 @@
+{
+  "questions":
+  [
+    {"question":"Which of the following is NOT an agile methodology?",
+      "answers":["Scrum","Lean","Waterfall","Extreme Programming (XP)"],
+      "correct_ans":"Waterfall",
+      "level":"Easy",
+      "team":"panther"},
+
+    {"question":"Which of the following is NOT a role in a Scrum team?",
+      "answers":["Product Owner","Scrum Master","Developer","Project Manager"],
+      "correct_ans":"Project Manager",
+      "level":"Medium",
+      "team":"panther"},
+
+    {"question":"What are the two main types of software requirements?",
+      "answers":["Functional, and non-functional","User, and business","Essential, and optional","Constraints, and dependencies"],
+      "correct_ans":"Functional, and non-functional",
+      "level":"Easy",
+      "team":"panther"},
+
+    {"question":"What is the difference between a functional requirement and a non-functional requirement?",
+      "answers":["Functional requirements describe what the system should do, while non-functional requirements describe how the system should do it"," Functional requirements are optional, while non-functional requirements are mandatory","Functional requirements are specific to a particular software system, while non-functional requirements are generic to all software systems","Functional requirements are concerned with the user experience, while non-functional requirements are concerned with system performance and reliability"],
+      "correct_ans":"Functional requirements describe what the system should do, while non-functional requirements describe how the system should do it",
+      "level":"Medium",
+      "team":"panther"},
+
+    {"question":"What are some considerations for designing an effective user survey?",
+      "answers":["Keeping the survey short and focused","Ensuring that the questions are clear and unbiased","Providing an incentive for users to complete the survey","All of the above"],
+      "correct_ans":"All of the above",
+      "level":"Easy",
+      "team":"panther"},
+
+    {"question":"Which of the following is NOT a benefit of using user surveys for software usability testing?",
+      "answers":["Quick and cost-effective data collection","Ability to gather feedback from a large number of users","Objective and unbiased results","Limited ability to identify specific issues and problems"],
+      "correct_ans":"All of the above",
+      "level":"Medium",
+      "team":"panther"},
+
+    {"question":"Which of the following is NOT a type of architectural pattern?",
+      "answers":["MVC","Layered","Client-Server", "Singelton"],
+      "correct_ans":"Singelton",
+      "level":"Medium",
+      "team":"panther"},
+
+    {"question":"What is the main purpose of software architecture?",
+      "answers":["To ensure the system is maintainable and evolvable","To maximize performance and scalability","To minimize the cost of development", "All of the above"],
+      "correct_ans":"All of the above",
+      "level":"Easy",
+      "team":"panther"},
+
+    {"question":"Which of the following is NOT a common type of maintenance in software engineering?",
+      "answers":["Corrective maintenance","Adaptive maintenance","Predictive maintenance", "Perfective maintenance"],
+      "correct_ans":"Predictive maintenance",
+      "level":"Hard",
+      "team":"panther"},
+
+    {"question":"Which of the following is NOT a best practice for managing maintenance in a software system?",
+      "answers":["Documenting changes to the system","Regularly reviewing and updating documentation","Establishing a clear process for requesting and implementing changes", "Ignoring user feedback and ignoring potential problems"],
+      "correct_ans":"Ignoring user feedback and ignoring potential problems",
+      "level":"Hard",
+      "team":"panther"},
+
+    {"question":"Which of the following is NOT a goal of testing in software engineering?",
+      "answers":["To identify defects in the software system","To verify that the software system meets requirements","To improve the design of the software system", "To prevent the need for maintenance"],
+      "correct_ans":"To prevent the need for maintenance",
+      "level":"Hard",
+      "team":"panther"},
+
+    {"question":"The first stage of testing is User Testing.",
+      "answers":["True","False","", ""],
+      "correct_ans":"False",
+      "level":"Hard",
+      "team":"panther"},
+
+    {"question":"Which of the following is NOT a key principle of software engineering?",
+      "answers":["Reusability","Maintainability","Testability", "Flexibility"],
+      "correct_ans":"Flexibility",
+      "level":"Easy",
+      "team":"panther"},
+
+    {"question":"Which of the following is NOT a common software design pattern?",
+      "answers":["Singleton pattern","Factory pattern","Inheritance pattern", "Observer pattern"],
+      "correct_ans":"Inheritance pattern",
+      "level":"Medium",
+      "team":"panther"},
+
+    {"question":"Software maintenance costs are expensive in contrast to software development.",
+      "answers":["True","False","", ""],
+      "correct_ans":"True",
+      "level":"Hard",
+      "team":"panther"}
+  ]
+}

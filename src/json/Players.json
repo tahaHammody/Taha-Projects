@@ -1,0 +1,45 @@
+{
+  "players":
+  [
+    {
+      "nickname": "aseel",
+      "highestScore": 1834
+    },
+    {
+      "nickname": "mariam",
+      "highestScore": 989
+    },
+    {
+      "nickname": "nrimeen",
+      "highestScore": 799
+    },
+    {
+      "nickname": "taha",
+      "highestScore": 1478
+    },
+    {
+      "nickname": "Zero",
+      "highestScore": 1034
+    },
+    {
+      "nickname": "Iron Heart",
+      "highestScore": 800
+    },
+    {
+      "nickname": "Bad Bunny",
+      "highestScore": 655
+    },
+    {
+      "nickname": "Mo",
+      "highestScore": 915
+    },
+    {
+      "nickname": "admin",
+      "highestScore": 305
+    },
+    {
+      "nickname": "MathBoy",
+      "highestScore": 200
+    }
+  ]
+}

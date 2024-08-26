@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1280.0" style="-fx-border-color: transparent; -fx-background-color: transparent;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="control.GameRulesController">
+   <children>
+      <Button fx:id="backBtn" layoutX="42.0" layoutY="24.0" minWidth="34.0" mnemonicParsing="false" onAction="#goBack" prefHeight="63.0" prefWidth="94.0" style="-fx-background-color: transparent;" textAlignment="CENTER">
+         <graphic>
+            <ImageView fitHeight="45.0" fitWidth="46.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/back-button.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Label layoutX="164.0" layoutY="128.0" text="What are the rules of Knights's Move game?">
+         <font>
+            <Font name="Lucida Console" size="18.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="351.0" fitWidth="456.0" layoutX="843.0" layoutY="98.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/legal-moves.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="843.0" layoutY="463.0" text="Possible chess knights movements">
+         <font>
+            <Font name="Lucida Console" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="164.0" layoutY="166.0" prefHeight="49.0" prefWidth="518.0" text="- You play with the Knight's chess piece; your goal is to traverse the chess board's tiles just once, collect as many points as you can, and try to avoid the King and the Queen." wrapText="true">
+         <font>
+            <Font name="Lucida Console" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="164.0" layoutY="225.0" prefHeight="49.0" prefWidth="518.0" text="- The game has four levels; easy, intermediate, challenging, and super hard. " wrapText="true">
+         <font>
+            <Font name="Lucida Console" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="164.0" layoutY="274.0" prefHeight="49.0" prefWidth="526.0" text="- On each level, there are unique tiles that might affect your movement." wrapText="true">
+         <font>
+            <Font name="Lucida Console" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="164.0" layoutY="327.0" prefHeight="49.0" prefWidth="518.0" text="- In each level, three questions will appear randomly, if you answer correctly, you will receive points, and if you answer wrong, you will lose points." wrapText="true">
+         <font>
+            <Font name="Lucida Console" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="164.0" layoutY="389.0" prefHeight="49.0" prefWidth="518.0" text="- The game ends if you don't succeed in collecting 15 points in each level or when the Queen or the King kills you, or when you succeed in completing the four levels." wrapText="true">
+         <font>
+            <Font name="Lucida Console" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="164.0" layoutY="446.0" prefHeight="49.0" prefWidth="518.0" text="- To start to move, you should click on the Knight piece and then click on the target tile. " wrapText="true">
+         <font>
+            <Font name="Lucida Console" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="164.0" layoutY="527.0" text="Points system:">
+         <font>
+            <Font name="Lucida Console" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="164.0" layoutY="556.0" prefHeight="49.0" prefWidth="518.0" text="- Easy question: correct answer = +1pt, wrong answer = -2pt" wrapText="true">
+         <font>
+            <Font name="Lucida Console" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="164.0" layoutY="593.0" prefHeight="49.0" prefWidth="518.0" text="- Medium question: correct answer = +2pts, wrong answer = -3pts" wrapText="true">
+         <font>
+            <Font name="Lucida Console" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="165.0" layoutY="633.0" prefHeight="49.0" prefWidth="518.0" text="- Hard question: correct answer = +3pts, wrong answer = -4pts" wrapText="true">
+         <font>
+            <Font name="Lucida Console" size="12.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
