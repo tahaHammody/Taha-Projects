@@ -1,0 +1,6 @@
+<resources>
+  <style name="Theme.FinalProject" parent="Theme.MaterialComponents.Light"/>
+  <style name="DateDialogTheme" parent="Theme.MaterialComponents.Light.Dialog">
+    <item name="colorAccent">@color/maryam_khalil_color</item>
+  </style>
+</resources>

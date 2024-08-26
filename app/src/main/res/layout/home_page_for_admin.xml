@@ -1,0 +1,186 @@
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent" android:layout_height="wrap_content" >
+	<!-- 
+	/*
+	 *	This content is generated from the API File Info.
+	 *	(Alt+Shift+Ctrl+I).
+	 *
+	 *	@desc 		
+	 *	@file 		home_page_for_admin
+	 *	@date 		Wednesday 15th of March 2023 07:27:36 PM
+	 *	@title 		Home Page For Admin
+	 *	@author 	
+	 *	@keywords 	
+	 *	@generator 	Export Kit v1.3.figma
+	 *
+	 */
+	-->
+	<ScrollView android:id="@+id/home_page_for_admin" 
+		android:layout_width="wrap_content" 
+		android:layout_height="match_parent" >
+
+
+
+
+			<RelativeLayout android:id="@+id/page_home_page_for_admin_ek1"
+				android:layout_marginTop="0dp"
+				android:layout_marginStart="0dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				>
+
+				<View   android:id="@+id/_bg__home_page_for_admin_ek2"
+					android:background="@drawable/_bg__home_page_for_admin_ek2_shape"
+					 android:layout_marginStart="0dp"
+					android:layout_marginTop="0dp"
+					android:layout_width="412dp"
+					android:layout_height="869dp" />
+
+				<ImageView
+					android:id="@+id/rectangle_1"
+					android:layout_width="412dp"
+					android:layout_height="864dp"
+					android:layout_marginStart="0dp"
+					android:layout_marginTop="0dp"
+					android:contentDescription="@string/rectangle_16"
+					android:src="@drawable/rectangle_1"
+					tools:ignore="ImageContrastCheck" />
+
+				<TextView
+					android:id="@+id/admin1"
+					android:layout_width="98dp"
+					android:layout_height="32dp"
+					android:layout_marginStart="196dp"
+					android:layout_marginTop="148dp"
+					android:text="@string/admin1_string"
+					android:textColor="@color/sign_up_ek4_color"
+					android:textSize="24sp"
+					android:textStyle="bold" />
+
+
+				<TextView
+					android:id="@+id/all_reviews"
+					android:layout_width="91dp"
+					android:layout_height="32dp"
+					android:layout_marginStart="131dp"
+					android:layout_marginTop="148dp"
+					android:text="@string/hello_1_string"
+					android:textColor="@color/sign_up_ek4_color"
+					android:textSize="24sp"
+					android:textStyle="bold" />
+
+				<Button
+					android:id="@+id/reviewsBtn"
+					android:layout_width="120dp"
+					android:layout_height="wrap_content"
+					android:layout_below="@+id/studentsBtn"
+					android:layout_alignParentStart="true"
+					android:layout_alignParentEnd="true"
+					android:layout_marginStart="144dp"
+					android:layout_marginTop="52dp"
+					android:layout_marginEnd="151dp"
+					android:background="@drawable/round_btn"
+					android:text="@string/reviews_string"
+					tools:ignore="TextContrastCheck" />
+
+				<Button
+					android:id="@+id/SchoolsBtn"
+					android:layout_width="120dp"
+					android:layout_height="wrap_content"
+					android:layout_below="@+id/studentsBtn"
+					android:layout_alignParentStart="true"
+					android:layout_alignParentEnd="true"
+					android:layout_marginStart="144dp"
+					android:layout_marginTop="150dp"
+					android:layout_marginEnd="151dp"
+					android:background="@drawable/round_btn"
+					android:text="@string/schools"
+					tools:ignore="TextContrastCheck" />
+
+				<Button
+					android:id="@+id/roomsBtn"
+					android:layout_width="120dp"
+					android:layout_height="wrap_content"
+					android:layout_below="@+id/studentsBtn"
+					android:layout_alignParentStart="true"
+					android:layout_alignParentEnd="true"
+					android:layout_marginStart="144dp"
+					android:layout_marginTop="248dp"
+					android:layout_marginEnd="151dp"
+					android:background="@drawable/round_btn"
+					android:text="@string/rooms"
+					tools:ignore="TextContrastCheck" />
+
+				<ImageView
+					android:id="@+id/myv"
+					android:layout_width="29dp"
+					android:layout_height="31dp"
+					android:layout_alignParentTop="true"
+					android:layout_alignParentEnd="true"
+					android:layout_marginStart="329dp"
+					android:layout_marginTop="44dp"
+					android:layout_marginEnd="57dp"
+					android:contentDescription="@string/myv"
+					android:src="@drawable/myv" />
+
+				<Button
+					android:id="@+id/classesBtn"
+					android:layout_width="125dp"
+					android:layout_height="wrap_content"
+					android:layout_below="@+id/all_reviews"
+					android:layout_alignParentStart="true"
+					android:layout_alignParentEnd="true"
+					android:layout_marginStart="143dp"
+					android:layout_marginTop="94dp"
+					android:layout_marginEnd="147dp"
+					android:background="@drawable/round_btn"
+					android:text="@string/classes_string"
+					tools:ignore="TextContrastCheck" />
+
+				<Button
+					android:id="@+id/teachersBtn"
+					android:layout_width="124dp"
+					android:layout_height="wrap_content"
+					android:layout_below="@+id/classesBtn"
+					android:layout_alignParentStart="true"
+					android:layout_alignParentEnd="true"
+					android:layout_marginStart="142dp"
+					android:layout_marginTop="50dp"
+					android:layout_marginEnd="146dp"
+					android:background="@drawable/round_btn"
+					android:text="@string/teachers_string"
+					tools:ignore="TextContrastCheck" />
+
+				<Button
+					android:id="@+id/studentsBtn"
+					android:layout_width="118dp"
+					android:layout_height="wrap_content"
+					android:layout_below="@+id/teachersBtn"
+					android:layout_alignParentStart="true"
+					android:layout_alignParentEnd="true"
+					android:layout_marginStart="145dp"
+					android:layout_marginTop="51dp"
+					android:layout_marginEnd="149dp"
+					android:background="@drawable/round_btn"
+					android:text="@string/students_string"
+					tools:ignore="TextContrastCheck" />
+
+				<ImageView
+					android:id="@+id/imageView3"
+					android:layout_width="42dp"
+					android:layout_height="41dp"
+					android:layout_alignStart="@+id/all_reviews"
+					android:layout_alignParentTop="true"
+					android:layout_marginStart="-84dp"
+					android:layout_marginTop="42dp"
+					android:contentDescription="@string/todo5"
+					app:srcCompat="@android:drawable/ic_lock_power_off"
+					/>
+
+
+			</RelativeLayout>
+
+	</ScrollView>
+</HorizontalScrollView>

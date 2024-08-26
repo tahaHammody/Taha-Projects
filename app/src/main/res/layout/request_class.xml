@@ -1,0 +1,289 @@
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="wrap_content">
+    <!--
+        /*
+         *	This content is generated from the API File Info.
+         *	(Alt+Shift+Ctrl+I).
+         *
+         *	@desc
+         *	@file 		welcome
+         *	@date 		Wednesday 15th of March 2023 04:14:58 PM
+         *	@title 		welcome
+         *	@author
+         *	@keywords
+         *	@generator 	Export Kit v1.3.figma
+         *
+         */
+         -->
+    <ScrollView
+        android:id="@+id/welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <RelativeLayout
+            android:id="@+id/page_welcome_ek1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp">
+
+            <ImageView
+                android:id="@+id/rectangle_1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp"
+                android:contentDescription="@string/rectangle_12"
+                android:src="@drawable/rectangle_1"
+                tools:ignore="ImageContrastCheck" />
+
+            <TextView
+                android:id="@+id/hourStar7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="18dp"
+                android:layout_marginTop="620dp"
+                android:text="@string/k1"
+                android:textColor="#F44336"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/arrow8"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_marginStart="78dp"
+                android:layout_marginTop="44dp"
+                android:contentDescription="@string/arrow_left_by_streamlinehq"
+                android:src="@drawable/arrow_left_by_streamlinehq" />
+
+            <TextView
+                android:id="@+id/requestClass"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="135dp"
+                android:layout_marginTop="36dp"
+                android:layout_marginEnd="222dp"
+                android:text="@string/request_class1"
+                android:textColor="@color/sign_up_ek4_color"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/subject"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="39dp"
+                android:layout_marginTop="146dp"
+                android:text="@string/subject3"
+                android:textColor="@color/sign_up_ek4_color"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/age"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="43dp"
+                android:layout_marginTop="262dp"
+                android:text="@string/age10"
+                android:textColor="@color/sign_up_ek4_color"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="41dp"
+                android:layout_marginTop="500dp"
+                android:text="@string/date2"
+                android:textColor="@color/sign_up_ek4_color"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/dateStar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="506dp"
+                android:text="@string/k1"
+                android:textColor="#F44336"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/datePicked"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="110dp"
+                android:layout_marginTop="508dp"
+                android:textColor="@color/sign_up_ek4_color"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/hourPicked"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="110dp"
+                android:layout_marginTop="622dp"
+                android:textColor="@color/sign_up_ek4_color"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/school"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="41dp"
+                android:layout_marginTop="382dp"
+                android:text="@string/school5"
+                android:textColor="@color/sign_up_ek4_color"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/hour"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="38dp"
+                android:layout_marginTop="614dp"
+                android:text="@string/hour3"
+                android:textColor="@color/sign_up_ek4_color"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/requestButton"
+                android:layout_width="117dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="156dp"
+                android:layout_marginTop="787dp"
+                android:background="@drawable/round_btn"
+                android:text="@string/request"
+                tools:ignore="TextContrastCheck" />
+
+            <Button
+                android:id="@+id/pickingHourBtn"
+                android:layout_width="218dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="165dp"
+                android:layout_marginTop="605dp"
+                android:background="@drawable/round_btn"
+                android:text="@string/pick_an_hour"
+                tools:ignore="TextContrastCheck" />
+
+            <Button
+                android:id="@+id/pickingDateBtn"
+                android:layout_width="218dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="163dp"
+                android:layout_marginTop="487dp"
+                android:background="@drawable/round_btn"
+                android:text="@string/pick_a_date"
+                tools:ignore="TextContrastCheck" />
+
+            <Spinner
+                android:id="@+id/subjectSpinner"
+                android:layout_width="227dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="157dp"
+                android:layout_marginTop="139dp"
+                android:entries="@array/Subjects"
+                android:minHeight="48dp"
+                tools:ignore="DuplicateSpeakableTextCheck,SpeakableTextPresentCheck"
+                android:background="@drawable/round_txt"/>
+
+            <Spinner
+                android:id="@+id/ageSpinner"
+                android:layout_width="222dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="161dp"
+                android:layout_marginTop="254dp"
+                android:entries="@array/Ages"
+                android:minHeight="48dp"
+                tools:ignore="SpeakableTextPresentCheck"
+                android:background="@drawable/round_txt"/>
+
+            <Spinner
+                android:id="@+id/schoolsSpinner"
+                android:layout_width="222dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="164dp"
+                android:layout_marginTop="369dp"
+                android:minHeight="48dp"
+                tools:ignore="SpeakableTextPresentCheck"
+                android:background="@drawable/round_txt"/>
+
+            <CheckBox
+                android:id="@+id/everyWeekCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="43dp"
+                android:layout_marginTop="706dp"
+                android:minHeight="48dp"
+                android:text="@string/every_week"
+                android:textColor="@color/sign_up_ek4_color"
+                android:textStyle="bold"
+                tools:ignore="TextContrastCheck" />
+
+            <CheckBox
+                android:id="@+id/everyDayCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="269dp"
+                android:layout_marginTop="705dp"
+                android:minHeight="48dp"
+                android:text="@string/every_day"
+                android:textColor="@color/sign_up_ek4_color"
+                android:textStyle="bold"
+                tools:ignore="TextContrastCheck" />
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+</HorizontalScrollView>

@@ -1,0 +1,344 @@
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="wrap_content">
+
+    <ScrollView
+        android:id="@+id/welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <RelativeLayout
+            android:id="@+id/page_welcome_ek1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp">
+
+            <ImageView
+                android:id="@+id/rectangle_1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp"
+                android:contentDescription="@string/rectangle_12"
+                android:src="@drawable/rectangle_1"
+                tools:ignore="ImageContrastCheck" />
+
+            <ImageView
+                android:id="@+id/arrow7"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_marginStart="78dp"
+                android:layout_marginTop="44dp"
+                android:contentDescription="@string/arrow_left_by_streamlinehq"
+                android:src="@drawable/arrow_left_by_streamlinehq" />
+
+            <TextView
+                android:id="@+id/updateStudent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="138dp"
+                android:layout_marginTop="36dp"
+                android:layout_marginEnd="281dp"
+                android:text="@string/update_student2"
+                android:textColor="@color/sign_up_ek4_color"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/studentUserName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="26dp"
+                android:layout_marginTop="125dp"
+                android:layout_marginEnd="431dp"
+                android:text="@string/user_name2"
+                android:textColor="@color/sign_up_ek4_color"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/userNameStar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="9dp"
+                android:layout_marginTop="131dp"
+                android:layout_marginEnd="572dp"
+                android:text="@string/y"
+                android:textColor="#F44336"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:visibility="gone"
+                tools:ignore="TextContrastCheck" />
+
+            <TextView
+                android:id="@+id/emailStar1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="201dp"
+                android:layout_marginEnd="571dp"
+                android:text="@string/u"
+                android:textColor="#F44336"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:visibility="gone"
+                tools:ignore="TextContrastCheck" />
+
+            <TextView
+                android:id="@+id/phoneStar1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="280dp"
+                android:layout_marginEnd="571dp"
+                android:text="@string/o"
+                android:textColor="#F44336"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:visibility="gone"
+                tools:ignore="TextContrastCheck" />
+
+            <TextView
+                android:id="@+id/passwordStar1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="360dp"
+                android:layout_marginEnd="571dp"
+                android:text="@string/p"
+                android:textColor="#F44336"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:visibility="gone"
+                tools:ignore="TextContrastCheck" />
+
+            <TextView
+                android:id="@+id/studentMail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="26dp"
+                android:layout_marginTop="197dp"
+                android:layout_marginEnd="480dp"
+                android:text="@string/e_mail3"
+                android:textColor="@color/sign_up_ek4_color"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/studentPhone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="26dp"
+                android:layout_marginTop="275dp"
+                android:layout_marginEnd="391dp"
+                android:text="@string/phone_number"
+                android:textColor="@color/sign_up_ek4_color"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/StudentPassword"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="26dp"
+                android:layout_marginTop="356dp"
+                android:layout_marginEnd="447dp"
+                android:text="@string/password3"
+                android:textColor="@color/sign_up_ek4_color"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/StudentAddress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="26dp"
+                android:layout_marginTop="445dp"
+                android:layout_marginEnd="463dp"
+                android:text="@string/address1"
+                android:textColor="@color/sign_up_ek4_color"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/gender"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="26dp"
+                android:layout_marginTop="532dp"
+                android:layout_marginEnd="474dp"
+                android:text="@string/gender"
+                android:textColor="@color/sign_up_ek4_color"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/age"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="26dp"
+                android:layout_marginTop="615dp"
+                android:layout_marginEnd="506dp"
+                android:text="@string/age3"
+                android:textColor="@color/sign_up_ek4_color"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/updateBtn3"
+                android:layout_width="117dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="154dp"
+                android:layout_marginTop="733dp"
+                android:background="@drawable/round_btn"
+                android:text="@string/update6"
+                tools:ignore="TextContrastCheck" />
+
+            <EditText
+                android:id="@+id/studentUserNameEditText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="182dp"
+                android:layout_marginTop="113dp"
+                android:autofillHints=""
+                android:ems="10"
+                android:hint="@string/user_name3"
+                android:inputType="textPersonName"
+                android:minHeight="48dp"
+                tools:ignore="TextContrastCheck"
+                android:background="@drawable/round_txt" />
+
+            <EditText
+                android:id="@+id/studentMailEditText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="180dp"
+                android:layout_marginTop="189dp"
+                android:autofillHints=""
+                android:ems="10"
+                android:hint="@string/e_mail4"
+                android:inputType="textEmailAddress"
+                android:minHeight="48dp"
+                tools:ignore="TextContrastCheck"
+                android:background="@drawable/round_txt" />
+
+            <EditText
+                android:id="@+id/StudentPhoneEditText"
+                android:layout_width="173dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="215dp"
+                android:layout_marginTop="267dp"
+                android:autofillHints=""
+                android:ems="10"
+                android:hint="@string/phone_number1"
+                android:inputType="phone"
+                android:minHeight="48dp"
+                tools:ignore="TextContrastCheck"
+                android:background="@drawable/round_txt" />
+
+            <EditText
+                android:id="@+id/StudentPasswordEditText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="177dp"
+                android:layout_marginTop="345dp"
+                android:autofillHints=""
+                android:ems="10"
+                android:hint="@string/password4"
+                android:inputType="textPassword"
+                android:minHeight="48dp"
+                tools:ignore="TextContrastCheck"
+                android:background="@drawable/round_txt" />
+
+            <Spinner
+                android:id="@+id/StudentAddressSpinner"
+                android:layout_width="206dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="177dp"
+                android:layout_marginTop="433dp"
+                android:background="@drawable/round_txt"
+                android:entries="@array/Regions"
+                android:minHeight="48dp"
+                tools:ignore="DuplicateSpeakableTextCheck" />
+
+            <Spinner
+                android:id="@+id/genderSpinner"
+                android:layout_width="207dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="177dp"
+                android:layout_marginTop="523dp"
+                android:background="@drawable/round_txt"
+                android:entries="@array/Genders"
+                android:minHeight="48dp"
+                tools:ignore="DuplicateSpeakableTextCheck" />
+
+            <Spinner
+                android:id="@+id/ageSpinner"
+                android:layout_width="207dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="177dp"
+                android:layout_marginTop="608dp"
+                android:background="@drawable/round_txt"
+                android:entries="@array/Ages"
+                android:minHeight="48dp"
+                tools:ignore="DuplicateSpeakableTextCheck" />
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+</HorizontalScrollView>

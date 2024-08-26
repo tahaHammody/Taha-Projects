@@ -1,0 +1,123 @@
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="wrap_content" >
+
+    <ScrollView android:id="@+id/home_page_for_admin"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" >
+
+
+
+
+        <RelativeLayout android:id="@+id/page_home_page_for_admin_ek1"
+            android:layout_marginTop="0dp"
+            android:layout_marginStart="0dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+
+
+            <ImageView
+                android:id="@+id/rectangle_1"
+                android:layout_width="412dp"
+                android:layout_height="864dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp"
+                android:contentDescription="@string/rectangle_16"
+                android:src="@drawable/rectangle_1"
+                tools:ignore="ImageContrastCheck" />
+
+            <TextView
+                android:id="@+id/reviewClass"
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="156dp"
+                android:layout_marginTop="38dp"
+                android:text="@string/review3"
+                android:textColor="@color/sign_up_ek4_color"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/notes5"
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="168dp"
+                android:layout_marginTop="397dp"
+                android:text="@string/notes5"
+                android:textColor="@color/sign_up_ek4_color"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/ClassInfo"
+                android:layout_width="wrap_content"
+                android:layout_height="46dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="120dp"
+                android:layout_marginTop="141dp"
+                android:text="@string/class_information"
+                android:textColor="@color/sign_up_ek4_color"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/reviewBtn"
+                android:layout_width="118dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="143dp"
+                android:layout_marginTop="762dp"
+                android:layout_marginBottom="43dp"
+                android:background="@drawable/round_btn"
+                android:text="@string/add_review"
+                tools:ignore="TextContrastCheck" />
+
+            <ImageView
+                android:id="@+id/arrow12"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_marginStart="78dp"
+                android:layout_marginTop="44dp"
+                android:contentDescription="@string/arrow_left_by_streamlinehq"
+                android:src="@drawable/arrow_left_by_streamlinehq" />
+
+            <RatingBar
+                android:id="@+id/ratingBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="94dp"
+                android:layout_marginTop="271dp"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <MultiAutoCompleteTextView
+                android:id="@+id/notesEditText"
+                android:layout_width="335dp"
+                android:layout_height="260dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="36dp"
+                android:layout_marginTop="467dp"
+                android:autofillHints=""
+                android:background="@drawable/round_txt"
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:lines="10"
+                android:minHeight="48dp"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+</HorizontalScrollView>

@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- welcome strings -->
+
+    <string-array name="Subjects">
+        <item>Math</item>
+        <item>Sciences</item>
+        <item>Arabic</item>
+        <item>Hebrew</item>
+        <item>English</item>
+        <item>Art</item>
+        <item>Geography</item>
+        <item>Chemistry</item>
+        <item>Biology</item>
+        <item>Physics</item>
+        <item>Computers</item>
+    </string-array>
+    <string-array name="Genders">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+    <string-array name="Durations">
+        <item>30 Minutes</item>
+        <item>45 Minutes</item>
+        <item>1 Hour</item>
+        <item>1 and half Hour</item>
+        <item>2 Hours</item>
+        <item>2 and half Hour</item>
+        <item>3 Hours</item>
+        <item>3 and half Hour</item>
+        <item>4 Hours</item>
+    </string-array>
+    <string-array name="Ages">
+        <item>First Grade</item>
+        <item>Second Grade</item>
+        <item>Third Grade</item>
+        <item>Fourth Grade</item>
+        <item>Fifth Grade</item>
+        <item>Sixth Grade</item>
+    </string-array>
+    <string-array name="Regions">
+        <item>East</item>
+        <item>West</item>
+        <item>North</item>
+        <item>South</item>
+    </string-array>
+    <string-array name="Seniorities">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+    </string-array>
+    <string name="app_name">welcome</string>
+    <string name="ek_img_content">ExportKit Image</string>
+    <string name="getting_started_string">Getting Started</string>
+    <string name="who_are_we__string">Who are we?</string>
+    <string name="continue_string">Continue</string>
+    <string name="confirm_your_password_string">Confirm Your password</string>
+    <string name="confirm_password_string">Confirm Password</string>
+    <string name="password_string">password</string>
+    <string name="password_ek1_string">Password</string>
+    <string name="example_gmail_com_string">example@gmail.com</string>
+    <string name="email_address_string">Email Address</string>
+    <string name="write_your_address_string">Write Your Address</string>
+    <string name="address_ek1_string">Address</string>
+    <string name="write_your_phone_number_string">Write your Phone number</string>
+    <string name="phone_number_string">Phone number</string>
+    <string name="write_user_name_string">Write User Name</string>
+    <string name="user_name_string">User Name</string>
+    <string name="sign_up_ek4_string">Sign Up</string>
+    <string name="log_in_string">Log in</string>
+    <string name="user_name_ek1_string">User Name</string>
+    <string name="forgotten_password___string">Forgotten Password ?</string>
+    <string name="don_t_have_an_accoount__sign_up_string">Dont have an Accoount? Sign Up</string>
+    <string name="log_in_ek1_string">Log In</string>
+    <string name="maryam_khalil_string">Maryam Khalil</string>
+    <string name="taha_hammody_string">Taha Hammody</string>
+    <string name="karam_knanh_string">Karam Knanh</string>
+    <string name="and_we_build_this_app_to_help_students_and_teachers_to_find_suitable_classes_in_different_subject_for_learning__studying__motivating__preparing_for_exams__solving_homeworks__and_enjoying_school___string">and we build this app to help students and teachers to find suitable classes in different subject for learning, studying, motivating, preparing for exams, solving HomeWorks, and enjoying school ! </string>
+    <string name="we_are_three_information_systems_students__string">We are three information Systems Students:</string>
+    <string name="my_classes_string">My Classes</string>
+    <string name="hello__string">Hello,</string>
+    <string name="student_string">Student</string>
+    <string name="myhello__string">Hello,</string>
+    <string name="myteacher_string">Teacher</string>
+    <string name="admin1_string">Admin</string>
+    <string name="hello_1_string">Hello,</string>
+    <string name="classes_string"> Classes</string>
+    <string name="teachers_string">Teachers</string>
+    <string name="reviews_string">Reviews</string>
+    <string name="students_string">Students</string>
+    <string name="rectangle_1">rectangle_1</string>
+    <string name="img_myphoto">__img___myphoto</string>
+    <string name="myvector">myvector</string>
+    <string name="rectangle_11">rectangle_1</string>
+    <string name="arrow_left_by_streamlinehq">arrow_left_by_streamlinehq</string>
+    <string name="rectangle_12">rectangle_1</string>
+    <string name="img_group">__img___group</string>
+    <string name="getting_started">Getting Started</string>
+    <string name="who_are_we">Who Are We?</string>
+    <string name="rectangle_13">rectangle_1</string>
+    <string name="vector_ek1">vector_ek1</string>
+    <string name="vector">vector</string>
+    <string name="arrow_left_by_streamlinehq_ek1">arrow_left_by_streamlinehq_ek1</string>
+    <string name="img_codicon_account">__img___codicon_account</string>
+    <string name="rectangle_14">rectangle_1</string>
+    <string name="vector5">vector</string>
+    <string name="arrow_left_by_streamlinehq_ek11">arrow_left_by_streamlinehq_ek1</string>
+    <string name="img_group7">__img___group</string>
+    <string name="log_in">Log in</string>
+    <string name="password">Password</string>
+    <string name="user_name">User Name</string>
+    <string name="forget_password">forget password</string>
+    <string name="send">send</string>
+    <string name="todo">TODO</string>
+    <string name="user_name1">User Name</string>
+    <string name="address">Address</string>
+    <string name="e_mail">E-Mail</string>
+    <string name="password2">Password</string>
+    <string name="confirm_your_password">confirm your password</string>
+    <string name="sign_up">Sign up</string>
+    <string name="vector1">vector1</string>
+    <string name="img_layer_1">__img___layer_1</string>
+    <string name="rectangle_15">rectangle_1</string>
+    <string name="rectangle_16">rectangle_1</string>
+    <string name="myv">myv</string>
+    <string name="todo1">TODO</string>
+    <string name="todo3">TODO</string>
+    <string name="todo5">TODO</string>
+    <string name="all_classes">All Classes</string>
+    <string name="add">add</string>
+    <string name="update">update</string>
+    <string name="delete">delete</string>
+    <string name="all_teachers">All Teachers</string>
+    <string name="all_students">All Students</string>
+    <string name="all_reviews">All Reviews</string>
+    <string name="title_activity_student_messages">student_messages_activity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="insert_your_user_name">insert your user name!</string>
+    <string name="insert_your_password">insert your password !</string>
+    <string name="insert_you_user_name">insert you user name !</string>
+    <string name="insert_you_phone_number">insert you phone number !</string>
+    <string name="insert_your_email">insert your Email !</string>
+    <string name="insert_your_password1">insert your password !</string>
+    <string name="insert_your_password_again">insert your password again !</string>
+    <string name="send2">send</string>
+    <string name="messages">Messages</string>
+    <string name="add_class">Add Class</string>
+    <string name="teacher">Teacher :</string>
+    <string name="students">Students :</string>
+    <string name="students1">students</string>
+    <string name="date">date :</string>
+    <string name="date1">Date :</string>
+    <string name="hour">Hour :</string>
+    <string name="subject">Subject :</string>
+    <string name="notes">Notes :</string>
+    <string name="add2">Add</string>
+    <string name="add_teacher">Add Teacher</string>
+    <string name="user_name2">User Name :</string>
+    <string name="user_name3">User Name</string>
+    <string name="e_mail3">E-mail :</string>
+    <string name="e_mail4">E-mail</string>
+    <string name="phone_number">Phone Number :</string>
+    <string name="phone_number1">Phone Number</string>
+    <string name="password3">Password :</string>
+    <string name="password4">Password</string>
+    <string name="address1">Address :</string>
+    <string name="subject2">Subject :</string>
+    <string name="add_student">Add Student</string>
+    <string name="request">Request</string>
+    <string name="review">Review</string>
+    <string name="review3">Review</string>
+    <string name="class_information">Class Information</string>
+    <string name="notes5">Notes :</string>
+    <string name="add_review">Add Review</string>
+    <string name="update_class">Update Class</string>
+    <string name="update_class1">Update Class</string>
+    <string name="update_student2">Update Student</string>
+    <string name="update1">Update</string>
+    <string name="age">Age :</string>
+    <string name="update_teacher">Update Teacher</string>
+    <string name="update2">Update</string>
+    <string name="new_message">New Message</string>
+    <string name="to">To :</string>
+    <string name="title">Title :</string>
+    <string name="content">Content :</string>
+    <string name="message_content">message content</string>
+    <string name="write_an_email">write an email</string>
+    <string name="label_of_the_message">label of the message</string>
+    <string name="request_class1">Request Class</string>
+    <string name="date2">Date :</string>
+    <string name="subject3">Subject :</string>
+    <string name="hour3">Hour :</string>
+    <string name="class4">Class :</string>
+    <string name="update4">Update</string>
+    <string name="update3">Update</string>
+    <string name="brief">Brief :</string>
+    <string name="duration">Duration :</string>
+    <string name="age1">Age :</string>
+    <string name="room">Room :</string>
+    <string name="every_week">Every Week</string>
+    <string name="every_day">Every Day</string>
+    <string name="brief1">Brief :</string>
+    <string name="duration1">Duration :</string>
+    <string name="age2">Age :</string>
+    <string name="room1">Room :</string>
+    <string name="gender">Gender :</string>
+    <string name="age3">Age :</string>
+    <string name="age4">Age</string>
+    <string name="seniority">Seniority :</string>
+    <string name="gender1">Gender :</string>
+    <string name="age5">Age :</string>
+    <string name="schools">Schools</string>
+    <string name="update5">Update</string>
+    <string name="update6">Update</string>
+    <string name="update7">Update</string>
+    <string name="update8">Update</string>
+    <string name="description">Description :</string>
+    <string name="school">School :</string>
+    <string name="pick_a_date">Pick a date</string>
+    <string name="pick_an_hour">Pick an hour</string>
+    <string name="room2">Room :</string>
+    <string name="pick_a_room">Pick a room</string>
+    <string name="description1">description</string>
+    <string name="a">*</string>
+    <string name="b">*</string>
+    <string name="c">*</string>
+    <string name="d">*</string>
+    <string name="e">*</string>
+    <string name="h">*</string>
+    <string name="g">*</string>
+    <string name="i">*</string>
+    <string name="j">*</string>
+    <string name="k">*</string>
+    <string name="available_rooms">Available Rooms</string>
+    <string name="school4">School :</string>
+    <string name="school_name">School Name</string>
+    <string name="cancel">Cancel</string>
+    <string name="choose">Choose</string>
+    <string name="update9">Update</string>
+    <string name="description2">Description :</string>
+    <string name="update10">Update</string>
+    <string name="school2">School :</string>
+    <string name="capacity">Capacity :</string>
+    <string name="capacity1">capacity</string>
+    <string name="floor">Floor :</string>
+    <string name="floor1">floor</string>
+    <string name="number">Number :</string>
+    <string name="equipments">Equipments :</string>
+    <string name="computer">Computer</string>
+    <string name="teachertable">TeacherTable</string>
+    <string name="arttools">ArtTools</string>
+    <string name="conditioner">Conditioner</string>
+    <string name="projector">Projector</string>
+    <string name="tv">TV</string>
+    <string name="games">Games</string>
+    <string name="board">Board</string>
+    <string name="closet">Closet</string>
+    <string name="hanger">Hanger</string>
+    <string name="tables">Tables</string>
+    <string name="chairs">Chairs</string>
+    <string name="add_room">Add Room</string>
+    <string name="number2">number</string>
+    <string name="update_room">Update Room</string>
+    <string name="update11">Update</string>
+    <string name="add_school">Add School</string>
+    <string name="sunday">Sunday</string>
+    <string name="opening_days">Opening Days :</string>
+    <string name="thursday">Thursday</string>
+    <string name="wednesday">Wednesday</string>
+    <string name="saturday">Saturday</string>
+    <string name="closing_hour">Closing Hour :</string>
+    <string name="name">Name :</string>
+    <string name="opening_hour">Opening Hour :</string>
+    <string name="region">Region :</string>
+    <string name="friday">Friday</string>
+    <string name="monday">Monday</string>
+    <string name="tuesday">Tuesday</string>
+    <string name="name_of_school">Name of school</string>
+    <string name="description3">Description</string>
+    <string name="pick">Pick</string>
+    <string name="pick1">Pick</string>
+    <string name="update_school">Update School</string>
+    <string name="q">*</string>
+    <string name="w">*</string>
+    <string name="r">*</string>
+    <string name="t">*</string>
+    <string name="y">*</string>
+    <string name="u">*</string>
+    <string name="o">*</string>
+    <string name="p">*</string>
+    <string name="age8">Age</string>
+    <string name="s">*</string>
+    <string name="f">*</string>
+    <string name="l">*</string>
+    <string name="z">*</string>
+    <string name="x">*</string>
+    <string name="age9">Age</string>
+    <string name="a1">*</string>
+    <string name="a2">*</string>
+    <string name="a3">*</string>
+    <string name="a4">*</string>
+    <string name="a5">*</string>
+    <string name="all_rooms">All Rooms</string>
+    <string name="all_schools">All Schools</string>
+    <string name="rooms">Rooms</string>
+    <string name="age10">Age :</string>
+    <string name="school5">School :</string>
+    <string name="k1">*</string>
+    <string name="age11">Age</string>
+    <string name="gender4">Gender :</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="insert_your_age">insert your age !</string>
+    <string name="insert_your_gender">insert your gender !</string>
+    <string name="subject4">Subject</string>
+    <string name="user_name7">User Name</string>
+    <string name="classname">className</string>
+    <string name="floor2">Floor</string>
+    <string name="school6">School</string>
+    <string name="capacity2">Capacity</string>
+    <string name="num">Num</string>
+    <string name="f1">f</string>
+    <string name="flooor" />
+    <string name="name2">Name</string>
+    <string name="opening">Opening</string>
+    <string name="region2">Region</string>
+    <string name="closing">Closing</string>
+    <string name="ff">*</string>
+    <string name="tt">*</string>
+    <string name="rr">*</string>
+
+</resources>

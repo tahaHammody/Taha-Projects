@@ -1,0 +1,123 @@
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent" android:layout_height="wrap_content" >
+	<!-- 
+	/*
+	 *	This content is generated from the API File Info.
+	 *	(Alt+Shift+Ctrl+I).
+	 *
+	 *	@desc 		
+	 *	@file 		home_page_for_student
+	 *	@date 		Wednesday 15th of March 2023 07:10:49 PM
+	 *	@title 		Home Page For Student
+	 *	@author 	
+	 *	@keywords 	
+	 *	@generator 	Export Kit v1.3.figma
+	 *
+	 */
+	-->
+	<ScrollView android:id="@+id/home_page_for_student" 
+		android:layout_width="wrap_content" 
+		android:layout_height="match_parent" >
+
+
+
+
+
+			<RelativeLayout android:id="@+id/page_home_page_for_student_ek1"
+				android:layout_marginTop="0dp"
+				android:layout_marginStart="0dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				>
+
+				<View   android:id="@+id/_bg__home_page_for_student_ek2"
+					android:background="@drawable/_bg__home_page_for_student_ek2_shape"
+					 android:layout_marginStart="0dp"
+					android:layout_marginTop="0dp"
+					android:layout_width="412dp"
+					android:layout_height="869dp" />
+
+				<ImageView
+					android:id="@+id/rectangle_1"
+					android:layout_width="412dp"
+					android:layout_height="864dp"
+					android:layout_marginStart="0dp"
+					android:layout_marginTop="0dp"
+					android:contentDescription="@string/rectangle_15"
+					android:src="@drawable/rectangle_1"
+					tools:ignore="ImageContrastCheck" />
+
+
+				<ImageView
+					android:id="@+id/imageView2"
+					android:layout_width="40dp"
+					android:layout_height="35dp"
+					android:layout_alignStart="@+id/__img___layer_1"
+					android:layout_alignParentTop="true"
+					android:layout_marginStart="39dp"
+					android:layout_marginTop="35dp"
+					app:srcCompat="@android:drawable/ic_lock_power_off"
+					android:contentDescription="@string/todo3" />
+
+				<TextView
+					android:id="@+id/hello_"
+					android:layout_width="91dp"
+					android:layout_height="32dp"
+					android:layout_marginStart="134dp"
+					android:layout_marginTop="148dp"
+					android:text="@string/hello__string"
+					android:textColor="@color/sign_up_ek4_color"
+					android:textSize="24sp"
+					android:textStyle="bold" />
+
+				<Button
+					android:id="@+id/myClassesBtn"
+					android:layout_width="141dp"
+					android:layout_height="wrap_content"
+					android:layout_below="@+id/__img___layer_1"
+					android:layout_alignParentStart="true"
+					android:layout_alignParentEnd="true"
+					android:layout_marginStart="138dp"
+					android:layout_marginTop="146dp"
+					android:layout_marginEnd="133dp"
+					android:background="@drawable/round_btn"
+					android:text="@string/my_classes_string"
+					tools:ignore="TextContrastCheck" />
+
+				<TextView
+					android:id="@+id/student"
+					android:layout_width="112dp"
+					android:layout_height="32dp"
+					android:layout_marginStart="199dp"
+					android:layout_marginTop="149dp"
+					android:text="@string/student_string"
+					android:textColor="@color/sign_up_ek4_color"
+					android:textSize="24sp"
+					android:textStyle="bold" />
+
+				<ImageView
+					android:id="@+id/notification"
+					android:layout_width="29dp"
+					android:layout_height="31dp"
+					android:layout_marginStart="312dp"
+					android:layout_marginTop="40dp"
+					android:contentDescription="@string/vector1"
+					android:src="@drawable/vector3" />
+
+				<ImageView
+					android:id="@+id/__img___layer_1"
+					android:layout_width="404dp"
+					android:layout_height="239dp"
+					android:layout_marginStart="8dp"
+					android:layout_marginTop="239dp"
+					android:contentDescription="@string/img_layer_1"
+					android:src="@drawable/__img___layer_1"
+					tools:ignore="ImageContrastCheck" />
+
+			</RelativeLayout>
+
+
+	</ScrollView>
+</HorizontalScrollView>

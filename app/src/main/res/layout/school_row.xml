@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp">
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="@string/name2"
+        android:textStyle="bold"
+        android:textColor="@color/maryam_khalil_color"
+        android:id="@+id/name"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="@string/opening"
+        android:id="@+id/opening"
+        android:textStyle="bold"
+        android:textColor="@color/maryam_khalil_color"
+        android:layout_toEndOf="@id/name"/>
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@id/region"
+        android:text="@string/region2"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/maryam_khalil_color"
+        android:layout_below="@id/name"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/closing"
+        android:text="@string/closing"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/maryam_khalil_color"
+        android:layout_below="@id/name"
+        android:layout_toEndOf="@id/region"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/region"
+        android:background="#817F7F"/>
+
+</RelativeLayout>

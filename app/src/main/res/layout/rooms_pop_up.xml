@@ -1,0 +1,110 @@
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="wrap_content">
+
+    <ScrollView
+        android:id="@+id/welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <RelativeLayout
+            android:id="@+id/page_welcome_ek1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp">
+
+            <ImageView
+                android:id="@+id/rectangle_1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp"
+                android:contentDescription="@string/rectangle_12"
+                android:src="@drawable/rectangle_1"
+                tools:ignore="ImageContrastCheck" />
+
+            <TextView
+                android:id="@+id/avaliableRooms"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="122dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginEnd="235dp"
+                android:text="@string/available_rooms"
+                android:textColor="@color/sign_up_ek4_color"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/school4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="75dp"
+                android:layout_marginTop="83dp"
+                android:layout_marginEnd="431dp"
+                android:text="@string/school4"
+                android:textColor="@color/sign_up_ek4_color"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/schoolNameText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="188dp"
+                android:layout_marginTop="82dp"
+                android:layout_marginEnd="262dp"
+                android:text="@string/school_name"
+                android:textColor="@color/sign_up_ek4_color"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/cancelBtn"
+                android:layout_width="117dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="47dp"
+                android:layout_marginTop="738dp"
+                android:background="@drawable/round_btn"
+                android:text="@string/cancel"
+                tools:ignore="TextContrastCheck" />
+
+            <Button
+                android:id="@+id/chooseBtn"
+                android:layout_width="117dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="243dp"
+                android:layout_marginTop="736dp"
+                android:background="@drawable/round_btn"
+                android:text="@string/choose"
+                tools:ignore="TextContrastCheck" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_width="370dp"
+                android:layout_height="559dp"
+                android:id="@+id/roomsPopUpRecyclerView"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="22dp"
+                android:layout_marginTop="135dp" />
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+</HorizontalScrollView>

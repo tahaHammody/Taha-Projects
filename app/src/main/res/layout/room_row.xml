@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp">
+
+
+    <TextView
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="@string/school6"
+        android:textStyle="bold"
+        android:textColor="@color/maryam_khalil_color"
+        android:id="@+id/school"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="@string/floor2"
+        android:id="@+id/floor"
+        android:textStyle="bold"
+        android:textColor="@color/maryam_khalil_color"
+        android:layout_toEndOf="@id/school"/>
+
+
+    <TextView
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:id="@id/capacity"
+        android:text="@string/capacity2"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/maryam_khalil_color"
+        android:layout_below="@id/school"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/num"
+        android:text="@string/num"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/maryam_khalil_color"
+        android:layout_below="@id/school"
+        android:layout_toEndOf="@id/capacity"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/capacity"
+        android:background="#817F7F"/>
+</RelativeLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp">
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:id="@+id/reviewImageView"
+        android:layout_marginRight="10dp"
+        android:layout_centerVertical="true"
+        />
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/reviewImageView"
+        android:id="@+id/classTextView"
+        android:text="@string/classname"
+        android:textColor="@color/maryam_khalil_color"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/classTextView"
+        android:id="@+id/commentTextView"
+        android:textColor="@color/maryam_khalil_color"
+        android:layout_toEndOf="@id/reviewImageView"
+        android:text="Comment"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/commentTextView"
+        android:id="@+id/reviewer"
+        android:textColor="@color/maryam_khalil_color"
+        android:layout_toEndOf="@id/reviewImageView"
+        android:text="Reviewer"/>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/reviewImageView"
+        android:background="#817F7F"/>
+</RelativeLayout>

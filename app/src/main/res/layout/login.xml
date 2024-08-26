@@ -1,0 +1,198 @@
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent" android:layout_height="wrap_content" >
+
+	<ScrollView android:id="@+id/login" 
+		android:layout_width="wrap_content" 
+		android:layout_height="match_parent" >
+
+
+			<RelativeLayout android:id="@+id/page_login_ek1"
+				android:layout_marginTop="0dp"
+				android:layout_marginStart="0dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				>
+
+				<View
+					android:id="@+id/_bg__login_ek2"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginStart="0dp"
+					android:layout_marginTop="0dp"
+					android:background="@drawable/_bg__login_ek2_shape" />
+
+				<ImageView
+					android:id="@+id/rectangle_1"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginStart="0dp"
+					android:layout_marginTop="0dp"
+					android:contentDescription="@string/rectangle_14"
+					android:src="@drawable/rectangle_1"
+					tools:ignore="ImageContrastCheck" />
+
+
+				<Button
+					android:id="@+id/send"
+					android:layout_width="135dp"
+					android:layout_height="wrap_content"
+					android:layout_below="@+id/passowrd"
+					android:layout_alignStart="@+id/passowrd"
+					android:layout_alignEnd="@+id/passowrd"
+					android:layout_marginStart="105dp"
+					android:layout_marginTop="17dp"
+					android:layout_marginEnd="115dp"
+					android:background="@drawable/round_btn"
+					android:text="@string/log_in"
+					tools:ignore="TextContrastCheck" />
+
+				<RelativeLayout
+					android:id="@+id/passowrd"
+					android:layout_width="350dp"
+					android:layout_height="190dp"
+					android:layout_below="@+id/__img___group"
+					android:layout_marginStart="26dp"
+					android:layout_marginTop="37dp">
+
+					<RelativeLayout
+						android:id="@+id/ic_outline_visibility_off"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_marginStart="99dp"
+						android:layout_marginTop="28dp"
+						android:layout_toEndOf="@+id/editTextTextPassword">
+
+					</RelativeLayout>
+
+					<EditText
+						android:id="@+id/editTextTextPassword"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:layout_below="@+id/editTextTextEmailAddress"
+						android:layout_marginTop="52dp"
+						android:autofillHints=""
+						android:background="@drawable/round_txt"
+						android:ems="10"
+						android:hint="@string/password"
+						android:inputType="textPassword"
+						android:minHeight="48dp"
+						tools:ignore="TextContrastCheck" />
+
+
+					<TextView
+						android:id="@+id/forgotten_password__"
+						android:layout_width="151dp"
+						android:layout_height="23dp"
+						android:layout_below="@+id/editTextTextPassword"
+						android:layout_marginStart="204dp"
+						android:layout_marginTop="15dp"
+						android:text="@string/forgotten_password___string"
+						android:textColor="@color/forgotten_password___color"
+						android:textSize="12sp" />
+
+					<EditText
+						android:id="@+id/editTextTextEmailAddress"
+						android:layout_width="match_parent"
+						android:layout_height="50dp"
+						android:autofillHints=""
+						android:background="@drawable/round_txt"
+						android:ems="10"
+						android:hint="@string/user_name"
+						android:inputType="textEmailAddress"
+						android:textColorHint="@android:color/darker_gray"
+						tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
+
+					<TextView
+						android:id="@+id/textView"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_below="@+id/editTextTextEmailAddress"
+						android:layout_alignParentStart="true"
+						android:layout_marginStart="3dp"
+						android:layout_marginTop="0dp"
+						android:text="@string/insert_your_user_name"
+						android:textColor="#F44336"
+						android:visibility="gone" />
+
+					<TextView
+						android:id="@+id/textView2"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_below="@+id/editTextTextPassword"
+						android:layout_alignParentStart="true"
+						android:layout_marginStart="3dp"
+						android:layout_marginTop="1dp"
+						android:text="@string/insert_your_password"
+						android:textColor="#F44336"
+						android:visibility="gone" />
+
+				</RelativeLayout>
+
+
+				<TextView
+					android:id="@+id/don_t_have_an_accoount__sign_up"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginStart="94dp"
+					android:layout_marginTop="736dp"
+					android:text="@string/don_t_have_an_accoount__sign_up_string"
+					android:textColor="@color/forgotten_password___color"
+					android:textSize="14sp" />
+
+				<RelativeLayout android:id="@+id/arrow_left_by_streamlinehq"
+					android:layout_marginTop="30dp"
+					android:layout_marginStart="102dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					>
+
+					<ImageView android:id="@+id/arrow_left_by_streamlinehq_ek1"
+						android:src="@drawable/arrow_left_by_streamlinehq_ek1"
+						android:contentDescription="@string/arrow_left_by_streamlinehq_ek11"
+						 android:layout_marginStart="0dp"
+						android:layout_marginTop="0dp"
+						android:layout_width="24dp"
+						android:layout_height="24dp" />
+
+					<TextView android:id="@+id/log_in_ek1"
+						android:textStyle="bold"
+						android:textSize="20sp"
+						android:textColor="@color/log_in_ek1_color"
+						android:layout_marginStart="74dp"
+						android:layout_marginTop="5dp"
+						android:layout_width="86dp"
+						android:layout_height="29dp"
+						android:text="@string/log_in_ek1_string"
+						 />
+
+				</RelativeLayout>
+
+				<ImageView
+					android:id="@+id/__img___group"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginStart="45.78dp"
+					android:layout_marginTop="127.09dp"
+					android:contentDescription="@string/img_group7"
+					android:src="@drawable/__img___group" />
+
+				<ImageView
+					android:id="@+id/vector"
+					android:layout_width="wrap_content"
+					android:layout_height="16dp"
+					android:layout_alignTop="@+id/passowrd"
+					android:layout_alignBottom="@+id/passowrd"
+					android:layout_alignParentEnd="true"
+					android:layout_marginStart="4dp"
+					android:layout_marginTop="118dp"
+					android:layout_marginEnd="9dp"
+					android:layout_marginBottom="56dp"
+					android:layout_toEndOf="@+id/passowrd"
+					android:contentDescription="@string/vector5"
+					android:src="@drawable/vector" />
+
+			</RelativeLayout>
+
+
+	</ScrollView>
+</HorizontalScrollView>
