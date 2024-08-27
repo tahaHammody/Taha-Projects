@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "47667893298",
+    "project_id": "mishanapp-3cff6",
+    "storage_bucket": "mishanapp-3cff6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:47667893298:android:6813a4d7afcc6fdcaed82b",
+        "android_client_info": {
+          "package_name": "com.example.sheltered_living"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "47667893298-0ubuvnrdgmnhkrdv9t0535vinu7h501m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDyFk49cJzY0KfcdqHaQaiBipyi9v26LIU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "47667893298-0ubuvnrdgmnhkrdv9t0535vinu7h501m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

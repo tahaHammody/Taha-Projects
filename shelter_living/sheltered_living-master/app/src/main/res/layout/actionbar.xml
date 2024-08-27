@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/black">
+          <RelativeLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+              android:padding="16dp">
+
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="@string/mishan"
+                  android:textSize="25sp"
+                  android:textColor="#FFFFFF"
+              android:layout_toEndOf="@id/left"
+              android:layout_centerVertical="true"
+              android:layout_marginStart="16dp"
+                  tools:ignore="UnknownId" />
+          <ImageView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:src="@drawable/baseline_menu_24"
+              android:layout_alignParentEnd="true"
+              android:layout_centerVertical="true"
+              android:id="@+id/right"
+              android:onClick="showPopupMenu"
+              />
+
+              </RelativeLayout>
+
+
+
+</RelativeLayout>

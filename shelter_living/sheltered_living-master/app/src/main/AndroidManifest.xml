@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/mangerh"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Sheltered_Living"
+        tools:targetApi="31">
+        <activity
+            android:name=".screens.activites.FragmentHolderActivity"
+            android:exported="false" />
+        <activity
+            android:name=".screens.activites.ElderlyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".screens.activites.StaffMemberActivity"
+            android:exported="false" />
+        <activity
+            android:name=".screens.activites.HomeStaffActivity"
+            android:exported="false" />
+        <activity
+            android:name=".screens.activites.HomeMangerActivity"
+            android:exported="true" />
+        <activity
+            android:name=".screens.activites.CreateProfileActivity"
+            android:exported="true" />
+        <activity
+            android:name=".screens.activites.TasksActivity"
+            android:exported="false" />
+        <activity
+            android:name=".screens.activites.StaffMemberShiftsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".screens.activites.FeedbacksActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".screens.activites.MessagesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".screens.activites.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
